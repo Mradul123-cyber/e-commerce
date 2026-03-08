@@ -16,7 +16,7 @@ export default defineConfig({
 	resolve: {
 		extensions: ['.jsx', '.js', '.tsx', '.ts', '.json', ],
 		alias: {
-			'@': path.resolve(process.cwd(), 'src'),
+			'@': path.resolve(__dirname, './'),
 		},
 	},
 	build: {
